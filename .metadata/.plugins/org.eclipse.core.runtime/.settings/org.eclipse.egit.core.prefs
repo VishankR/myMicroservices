@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=D\:\\eclipse-workspace\\microservices\\currency-conversion-service\\.git;D\:\\eclipse-workspace\\microservices\\git-repo\\.git;D\:\\eclipse-workspace\\microservices\\naming-server\\.git;D\:\\eclipse-workspace\\microservices\\currency-exchange-service\\.git;D\:\\eclipse-workspace\\microservices\\api-gateway\\.git;D\:\\eclipse-workspace\\microservices\\spring-cloud-config-server\\.git;D\:\\eclipse-workspace\\microservices\\limits-service\\.git;
+GitRepositoriesView.GitDirectories.relative=currency-conversion-service\\.git;git-repo\\.git;naming-server\\.git;currency-exchange-service\\.git;api-gateway\\.git;spring-cloud-config-server\\.git;limits-service\\.git;
+core_autoIgnoreDerivedResources=false
+eclipse.preferences.version=1
