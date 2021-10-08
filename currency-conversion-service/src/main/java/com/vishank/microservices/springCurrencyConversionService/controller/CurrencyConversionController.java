@@ -35,7 +35,7 @@ public class  CurrencyConversionController {
 	
 	@GetMapping("/currency-conversion-feign/from/{from}/to/{to}/quantity/{quantity}")
 	public CurrencyConversion calculateCurrencyConversionFeign(@PathVariable String from, @PathVariable String to, @PathVariable BigDecimal quantity) {
-		String port = env.getProperty("local.server.port");
+		//String port = env.getProperty("local.server.port");
 		CurrencyConversion currencyConversion = proxy.retrieveExchangeValue(from, to);
 		return new CurrencyConversion(currencyConversion.getId(), from, to, quantity, currencyConversion.getConversionMultiple(), 
 				quantity.multiply(currencyConversion.getConversionMultiple()), currencyConversion.getEnvDetails()+ " Feign");

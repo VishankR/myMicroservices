@@ -1,12 +1,10 @@
 package com.vishank.microservices.springCurrencyExchangeService.bean;
 
 import java.math.BigDecimal;
-import java.util.Map;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.Transient;
 
 @Entity
 public class CurrencyExchange {
